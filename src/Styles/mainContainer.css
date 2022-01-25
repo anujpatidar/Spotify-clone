@@ -1,0 +1,71 @@
+.mainContainer {
+    z-index: 1;
+    flex-grow: 2;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: none;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.mainContainer .audio {
+    position: relative;
+    z-index: 2;
+    
+}
+.mainContainer.LatestRelease{
+    position: relative;
+   
+    
+}
+.mainContainer .LatestRelease >h2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #0b0d15;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.mainContainer .LatestRelease .h3 {
+    position: relative;
+    font-size: 12px;
+    color: #51596d;
+    margin-right: 30px;
+    
+    
+}
+.mainContainer .recommended{
+    
+    position: relative;
+    font-size: 15px;
+    color: #0b0d15;
+    margin-left: 100px;
+    
+    
+}
+.mainContainer .recommended >h2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #0b0d15;
+    margin-top: 5px;
+    
+    padding-bottom: 20px;
+}
+
+.mainContainer .recommended .h3 {
+    position: relative;
+    font-size: 12px;
+    color: #51596d;
+    margin-right: 30px;
+    
+    
+}
+.foot{
+    position: relative;
+    height: 80px;
+    bottom: 0;
+}

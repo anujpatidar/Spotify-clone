@@ -1,0 +1,34 @@
+.sidebarOption{
+    
+    padding-left: 37px;
+    display: flex;
+    align-items: center;
+    color: #bdcdd4;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-style: thin;
+}
+.sidebarOption:hover {
+    align-items: center;
+    color: #1ce4b3;
+    background: rgba(28, 228, 179, 0.1);
+    border-radius: 100px;
+    width: 220px;
+    height: 40px;
+    
+}
+
+
+.sidebarOption .sidebaroption_icon {
+    
+    font-size: 22px;
+    
+}
+.sidebarOption > h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 15px;
+}

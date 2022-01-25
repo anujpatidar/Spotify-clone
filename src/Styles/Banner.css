@@ -1,0 +1,105 @@
+    
+.banner {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.banner .posterImg {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner .Content .profile {
+    position: fixed;
+    top: 25px ;
+    right: 30px;
+}
+.banner .searchbox {
+    z-index: 4;
+    width: 280px;
+    height: 30px;
+    position: fixed;
+    margin-left: 100px;
+    top: 25px;
+    color: #546a79;
+    border-radius: 120px;
+    overflow: hidden;
+    
+}
+.banner .searchbox input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 40px;
+    color: #546a79;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: 'Poppins', sans-serif;
+
+}
+.banner .searchbox .searchIcon{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    color: #546a79;
+    text-align: center;
+    padding-left: 10px;
+    line-height: 37px;
+    font-size: 20px;
+}
+.banner .content  {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: black;
+    font-size: 30px;
+}
+
+.playbutton {
+    z-index: 2;
+    left: 0;
+    margin-left: 100px;
+    margin-top: 330px;
+    position: absolute;
+    display: flex;
+    color: #24c9c2;
+    width: 130px;
+    height: 35px;
+    overflow: hidden;
+    font-size: 8px;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    letter-spacing: 1px;
+    
+}
+
+.playbutton >h2 {
+    padding-left: 31px;
+}
+.Favorite {
+    position: absolute;
+    color: white;
+    font-size: 37px;
+    font-weight: 200;
+    margin-left: 250px;
+    margin-top: 329px;
+}
+.Share {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    
+    margin-left: 303px;
+    margin-top: 333px;
+}

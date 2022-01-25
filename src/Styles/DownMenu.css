@@ -1,0 +1,205 @@
+ .footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    
+    
+}
+.footer .playpause{
+    color: #1de9b6;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 55px;
+    
+}
+
+
+
+.footer_left {
+    flex: 0.2;
+    position: relative;
+    display: flex;
+    
+   
+}
+.footer_left .name{
+    position: relative;
+    margin-left: 85px;
+    
+    font-size: 14px;
+    color: #51596D;
+    font-weight: 600;
+}
+
+.footer_left .name .singer {
+     font-size: 12px;
+     padding-top: -10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #979ca8;
+}
+
+
+.footer_left .songImage {
+    position: fixed;
+    display: flex;
+    z-index: 4;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    
+}
+
+.footer_centre {
+    flex: 0.6;
+    margin-left: 30px;
+    color: #51596d;
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+.footer_centre .footer_icon {
+    flex: 0.06;
+}
+
+ .footer_centre .footer_play {
+    font-size: 45px;
+    color: #1de9b6;
+} 
+
+
+.footer_centre .footer_green {
+    flex: 0.1;
+    font-size: 20px;
+}
+
+.footer_right {
+    
+    flex: 0.2;
+    
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    
+    
+}
+
+.footer_right .volume {
+    color: #51596d;
+    font-size: 22px;
+    margin-left: 10px;
+    
+    
+}
+.footer .footer_right input {
+    margin-left: 15px;
+    position: relative;
+    outline: none;
+    border: none;
+    width: 130px;
+    height: 5px;
+    border-radius: 5px;
+    appearance: none;
+    background: rgb(235, 228, 231);
+}
+
+ .footer .footer_right input::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: #1de9b6;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+    transition: width 250ms linear;
+} 
+
+.footer .footer_right input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #1de9b6;
+    
+    cursor:pointer;
+    position: relative;
+    margin-left: 65px;
+    z-index: 3;
+    transition: all 250ms linear;
+} 
+
+.timer {
+    align-items: center;
+    flex: 0.66;
+    padding-left: 20px;
+    display: flex;
+    font-size: 15px;
+    
+    
+}
+.time {
+    width:42px;
+}
+
+.timer .progressBar {
+     
+    width: 380px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    height: 5px;
+    outline: none;
+    border: none;
+    appearance: none;
+    border-radius: 10px;
+    background: rgb(235, 228, 231);
+    cursor: pointer;
+}
+.timer .progressBar:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #1de9b6;
+    width: var(--played-width);
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+.timer .progressBar::-webkit-slider-thumb{
+ -webkit-appearance: none;
+    
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.timer .currentTime, .timer .duration{
+    color:#848697; 
+    font-size: 12px;
+    font-weight: 500;
+}
