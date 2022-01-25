@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Spotify-clone/static/css/main.1670697d.css",
+    "main.js": "/Spotify-clone/static/js/main.d3f43a45.js",
+    "static/js/787.5d5b7915.chunk.js": "/Spotify-clone/static/js/787.5d5b7915.chunk.js",
+    "static/media/image.jpg": "/Spotify-clone/static/media/image.20959bf47c08e2fae4eb.jpg",
+    "static/media/Model.jpg": "/Spotify-clone/static/media/Model.3e13d2c4e120335f944e.jpg",
+    "static/media/Spotify_Logo_RGB_Green.png": "/Spotify-clone/static/media/Spotify_Logo_RGB_Green.c74204115a7dd5f4bb12.png",
+    "index.html": "/Spotify-clone/index.html",
+    "main.1670697d.css.map": "/Spotify-clone/static/css/main.1670697d.css.map",
+    "main.d3f43a45.js.map": "/Spotify-clone/static/js/main.d3f43a45.js.map",
+    "787.5d5b7915.chunk.js.map": "/Spotify-clone/static/js/787.5d5b7915.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1670697d.css",
+    "static/js/main.d3f43a45.js"
+  ]
+}
